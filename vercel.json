@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/**/*.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/graphql",
+        "dest": "/api/graphql.py"
+      },
+      {
+        "src": "/consumo",
+        "dest": "/api/consumo.py"
+      }
+    ]
+  }
+  
