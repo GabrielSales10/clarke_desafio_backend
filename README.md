@@ -18,7 +18,7 @@ Este é o **backend** do **Desafio Clarke Energia**, uma API desenvolvida em **F
    - **Limite mínimo de consumo** ⚠️
    - **Número total de clientes** 👥
    - **Avaliação média dos clientes** ⭐
-   - 
+
 ✅ Banco de dados **PostgreSQL** para armazenamento eficiente dos fornecedores
 
 ---
