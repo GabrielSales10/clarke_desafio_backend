@@ -1,3 +1,6 @@
+
+![print_front](static/images/print_front.png)
+
 # ⚡ Desafio Clarke Energia - Backend
 
 ### 🌍 API para Escolha Inteligente de Fornecedores de Energia
