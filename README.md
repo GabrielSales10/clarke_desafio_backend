@@ -36,6 +36,8 @@ Este é o **backend** do **Desafio Clarke Energia**, uma API desenvolvida em **F
 
 🔹 **Flask-CORS** - Permitir requisições do frontend
 
+🔹 **GraphQL** - Linguagem de consulta para APIs, permitindo requisições eficientes e flexíveis
+
 ---
 
 ## 📦 Instalação e Execução
