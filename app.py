@@ -6,6 +6,7 @@ from psycopg2.extras import RealDictCursor
 import graphene
 from graphene import ObjectType, String, Int, Decimal as GDecimal
 from flask_graphql import GraphQLView
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -92,4 +93,5 @@ def receber_consumo():
     return jsonify({'fornecedores': fornecedores_filtrados}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
