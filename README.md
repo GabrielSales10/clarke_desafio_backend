@@ -1,3 +1,6 @@
+
+![print_front](static/images/print_front.png)
+
 # ⚡ Desafio Clarke Energia - Backend
 
 ### 🌍 API para Escolha Inteligente de Fornecedores de Energia
@@ -32,6 +35,8 @@ Este é o **backend** do **Desafio Clarke Energia**, uma API desenvolvida em **F
 🔹 **SQLAlchemy** - Comunicação com o banco de dados
 
 🔹 **Flask-CORS** - Permitir requisições do frontend
+
+🔹 **GraphQL** - Linguagem de consulta para APIs, permitindo requisições eficientes e flexíveis
 
 ---
 
